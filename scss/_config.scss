@@ -1,0 +1,26 @@
+//resets
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+//colors
+$color-work: hsl(15, 100%, 70%);
+$color-play: hsl(195, 74%, 62%);
+$color-study: hsl(348, 100%, 68%);
+$color-exercise: hsl(145, 58%, 55%);
+$color-social: hsl(264, 64%, 52%);
+$color-selfcare: hsl(43, 84%, 65%);
+
+$navy950: hsl(226, 43%, 10%);
+$navy900: hsl(235, 46%, 20%);
+$navy200: hsl(236, 100%, 87%);
+$purple500: hsl(235, 45%, 61%);
+$purple600: hsl(246, 80%, 60%);
+
+//font-weights
+$f-normal: 300;
+$f-medium: 400;
+$f-bold: 500;

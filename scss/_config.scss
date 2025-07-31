@@ -1,11 +1,3 @@
-//resets
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Rubik", sans-serif;
-    font-weight: 300;
-}
-
 //colors
 $color-work: hsl(15, 100%, 70%);
 $color-play: hsl(195, 74%, 62%);
@@ -14,13 +6,50 @@ $color-exercise: hsl(145, 58%, 55%);
 $color-social: hsl(264, 64%, 52%);
 $color-selfcare: hsl(43, 84%, 65%);
 
-$navy950: hsl(226, 43%, 10%);
-$navy900: hsl(235, 46%, 20%);
-$navy200: hsl(236, 100%, 87%);
-$purple500: hsl(235, 45%, 61%);
-$purple600: hsl(246, 80%, 60%);
+$color-background: hsl(226, 43%, 10%);
+$color-card: hsl(235, 46%, 20%);
+$color-font: hsl(236, 100%, 87%);
+$color-card-active: hsl(235, 45%, 61%);
+$color-overview: hsl(246, 80%, 60%);
 
 //font-weights
 $f-normal: 300;
 $f-medium: 400;
 $f-bold: 500;
+
+//font-sizes
+$card-title: 18px;
+
+//resets
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: $f-normal;
+    color: $color-font;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: $f-medium;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+}
+
+h3 {
+    font-size: $card-title;
+    color: white;
+    font-weight: $f-bold;
+}
+
+h4 {
+    font-size: $card-title;
+}

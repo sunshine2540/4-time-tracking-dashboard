@@ -23,6 +23,7 @@ main {
 .card {
     background-color: $color-card;
     border-radius: 10px;
+    overflow: hidden;
 
     &__header {
         grid-area: icon;
@@ -78,6 +79,19 @@ main {
     }
 }
 
+label {
+    font-size: $card-title;
+    margin-left: -17px;
+    cursor: pointer;
+}
+
+input {
+    opacity: 0;
+}
+
+input:checked+label {
+    color: white;
+}
 .work {
     grid-area: work;
     background-color: $color-work;
@@ -213,7 +227,6 @@ footer {
     bottom: 10px;
 
     a {
-        color: blue;
-        text-decoration: none;
+        color: $color-font;
     }
 }

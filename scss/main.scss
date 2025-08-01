@@ -24,6 +24,19 @@ main {
     background-color: $color-card;
     border-radius: 10px;
     overflow: hidden;
+    display: grid;
+        grid-template-rows: 20% 80%;
+        grid-template-areas:
+            "icon"
+            "main";
+    
+        &__times {
+            margin-top: 15%;
+    
+            p {
+                margin-top: 5%;
+            }
+        }
 
     &__header {
         grid-area: icon;
@@ -36,7 +49,7 @@ main {
         background-color: $color-card;
         border-radius: inherit;
         z-index: 2;
-        padding-left: 10%;
+        padding: 5% 0 0 10%;
     }
 }
 
@@ -95,131 +108,31 @@ input:checked+label {
 .work {
     grid-area: work;
     background-color: $color-work;
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-areas:
-        "icon"
-        "main";
 }
 
 .play {
     grid-area: play;
     background-color: $color-play;
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-areas:
-        "icon"
-        "main";
-
-    &__header {
-        grid-area: icon;
-        justify-self: end;
-        align-self: center;
-    }
-
-    &__main {
-        grid-area: main;
-        background-color: $color-card;
-        border-radius: inherit;
-        z-index: 2;
-        padding-left: 10%;
-    }
 }
 
 .study {
     grid-area: study;
     background-color: $color-study;
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-areas:
-        "icon"
-        "main";
-
-    &__header {
-        grid-area: icon;
-        justify-self: end;
-        align-self: center;
-    }
-
-    &__main {
-        grid-area: main;
-        background-color: $color-card;
-        border-radius: inherit;
-        z-index: 2;
-        padding-left: 10%;
-    }
 }
 
 .exercise {
     grid-area: exercise;
     background-color: $color-exercise;
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-areas:
-        "icon"
-        "main";
-
-    &__header {
-        grid-area: icon;
-        justify-self: end;
-        align-self: center;
-    }
-
-    &__main {
-        grid-area: main;
-        background-color: $color-card;
-        border-radius: inherit;
-        z-index: 2;
-        padding-left: 10%;
-    }
 }
 
 .social {
     grid-area: social;
     background-color: $color-social;
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-areas:
-        "icon"
-        "main";
-
-    &__header {
-        grid-area: icon;
-        justify-self: end;
-        align-self: center;
-    }
-
-    &__main {
-        grid-area: main;
-        background-color: $color-card;
-        border-radius: inherit;
-        z-index: 2;
-        padding-left: 10%;
-    }
 }
 
 .selfcare {
     grid-area: selfcare;
     background-color: $color-selfcare;
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-areas:
-        "icon"
-        "main";
-
-    &__header {
-        grid-area: icon;
-        justify-self: end;
-        align-self: center;
-    }
-
-    &__main {
-        grid-area: main;
-        background-color: $color-card;
-        border-radius: inherit;
-        z-index: 2;
-        padding-left: 10%;
-    }
 }
 
 footer {

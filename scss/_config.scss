@@ -9,7 +9,7 @@ $color-selfcare: hsl(43, 84%, 65%);
 $color-background: hsl(226, 43%, 10%);
 $color-card: hsl(235, 46%, 20%);
 $color-font: hsl(236, 100%, 87%);
-$color-card-active: hsl(235, 45%, 61%);
+$color-card-active: hsl(235, 45%, 30%);
 $color-overview: hsl(246, 80%, 60%);
 
 //font-weights
@@ -34,7 +34,7 @@ p {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-weight: $f-medium;
 }
